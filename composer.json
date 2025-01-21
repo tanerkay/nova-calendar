@@ -1,6 +1,6 @@
 {
     "name": "wdelfuego/nova-calendar",
-    "description": "A powerful event calendar Tool for Laravel's Nova 4.",
+    "description": "A powerful event calendar Tool for Laravel's Nova 4 / 5.",
     "keywords": [
         "laravel",
         "nova",
@@ -16,7 +16,8 @@
     "require": {
         "php": "^7.4|^8.0",
         "illuminate/support": "^8.0|^9.0|^10|^11",
-        "laravel/nova": "^4.2.4|^5.0"
+        "laravel/nova": "^4.2.4|^5.0",
+        "wdelfuego/nova-datetime": "dev-nova-5-support"
     },
     "autoload": {
         "psr-4": {
@@ -39,6 +40,10 @@
         {
             "type": "composer",
             "url": "https://nova.laravel.com"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/tanerkay/nova-datetime"
         }
     ]
 }
