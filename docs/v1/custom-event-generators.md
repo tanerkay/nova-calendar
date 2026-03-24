@@ -128,7 +128,7 @@ class FlightEventGenerator extends CustomEventGenerator
         $out = [];
 
         // Event constructor signature is:
-        // __construct(string $name, DateTimeInterface $start, DateTimeInterface $end = null, string $notes = '', array $badges = [])
+        // __construct(string $name, DateTimeInterface $start, ?DateTimeInterface $end = null, string $notes = '', array $badges = [])
         // Let's consider our Flight example again, and suppose we want to create
         // separate events for take-off and landing. You'd do something like:
         $out[] = new Event("Take-off", $model->take_off_at);

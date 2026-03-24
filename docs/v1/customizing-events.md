@@ -115,9 +115,9 @@ All of these methods return the `Event` itself so you can chain them in the `cus
 Corresponding methods are available in non-chainable form, if you prefer to work with those. 
 
 These function as simple setters when you supply an argument, and as getters when you don't.
-- `name(string $v = null) : string`
-- `start(DateTimeInterface $v = null) : DateTimeInterface`
-- `end(DateTimeInterface $v = null) : ?DateTimeInterface`
+- `name(?string $v = null) : string`
+- `start(?DateTimeInterface $v = null) : DateTimeInterface`
+- `end(?DateTimeInterface $v = null) : ?DateTimeInterface`
 - `url(string $v = null)`
 - `notes(string $v = null) : string`
 - `badges(array $v = null) : array`
